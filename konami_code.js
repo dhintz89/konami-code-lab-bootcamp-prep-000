@@ -11,6 +11,8 @@ const codes = [
   "a"
 ];
 
+var body = document.querySelector('body');
+
 let index = 0;
 
 function init(e) {
@@ -18,6 +20,6 @@ function init(e) {
   
 }
 
-document.body.addEventListener('keydown', function(e){
+
   
 }
