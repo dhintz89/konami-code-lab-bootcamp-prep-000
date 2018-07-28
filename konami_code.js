@@ -18,4 +18,6 @@ function init(e) {
   
 }
 
-document.body.addEventListener('keydown', fuc)
+document.body.addEventListener('keydown', function(e){
+  
+}
