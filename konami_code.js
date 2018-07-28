@@ -17,10 +17,16 @@ let index = 0;
 
 function init() {
   const body = document.querySelector('body');
-  const key = e.key;
-  body.addEventListener('keydown', )
-}
-
-
-  
+  body.addEventListener('keydown', function(e) {
+    const key = e.key;
+    if(key ===codes[index]) {
+      index++
+      if(index === codes.length) {
+        alert("Congratulations, you've entered the Konami Code");
+        index = 0;
+      }
+    }else{
+      index=0;
+    }
+  }
 }
