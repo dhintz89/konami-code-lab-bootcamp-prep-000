@@ -20,7 +20,7 @@ function init() {
     if(key === codes[index]) {
       index++;
       if(index === codes.length) {
-        alert("Congratulations, you've entered the Konami Code");
+        alert("Congratulations, you've entered the Konami Code!");
         index = 0;
       }
     }else{
