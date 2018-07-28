@@ -15,7 +15,7 @@ var body = document.querySelector('body');
 
 let index = 0;
 
-function init(e) {
+function init() {
   const key = e.key;
   
 }
